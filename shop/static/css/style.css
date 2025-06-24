@@ -1,0 +1,39 @@
+/* .carousel-item img {
+    object-fit: cover;
+    object-position: top;
+    height: 60vh;
+    overflow: hidden;
+} */
+.carousel-item img {
+    object-fit: cover;
+    object-position: top;
+    height: 55vh;
+    overflow: hidden;   
+}
+
+
+/* Responsive: smaller images on smaller screens */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 200px;
+    }
+}
+
+
+
+.image-height{
+    height: 230px;
+}
+
+
+.old-price{
+    font-weight: bold;
+    text-decoration: line-through;
+    color: red;
+}
+.new-price{
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    padding: 2px;
+}
